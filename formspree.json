@@ -1,0 +1,22 @@
+{
+    "forms": {
+      "contactForm": {
+        "name": "Contact Form",
+        "actions": [{ "type": "email", "to": "beatrizdebona.bd@gmail.com" }],
+        "fields":{
+            "email":{
+                "required": true
+            },
+            "name":{
+                "required": true
+            },
+            "subject":{
+                "required": true
+            },
+            "message":{
+                "required": true
+            }
+        }
+      }
+    }
+  }
